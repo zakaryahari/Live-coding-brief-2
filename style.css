@@ -1,8 +1,85 @@
 html , body {
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    font-family: 'Barlow Semi Condensed';
+    background-color: rgba(128, 128, 128, 0.336);
+    height: 100vh;
+}
+.container{
+    justify-items: center;
+    padding: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 .grid-container{
+    margin-top: 200xp;
     display: grid;
+    grid-auto-flow: column;
+    column-gap: 30px;
+    height: 750px;
+}
+.grig-left{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.grid-card-top{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+.grid-card-bottom{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 30px;
+}
+.grid-card-top-card , .grid-card-bottom-card ,.grid-card-tall-card{
+    background-color: red;
+    padding: 25px;
+}
+.grig-rigth{
+    width: 350px;
+}
+.grig-left{
+    width: 1000px;
+}
+.user-logo{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    column-gap: 20px;
+    font-weight: 500;
+    align-items:center ;
+}
+.user-logo img{
+    border-radius: 50%;
+    width: 50px;
+}
+.grid-tall{
+    
+}
+.card-1 ,.card-2 ,.card-3 ,.card-4{
+    border-radius: 15px;
+    /* height: 300px; */
+}
+.card-1{
+    background-color: hsl(261, 100%, 72%);
+    background-image: url(images/bg-pattern-quotation.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.card-2{
+    background-color: rgb(82, 65, 102);
+}
+.card-3{
+    background-color: white;
+}
+.card-5{
+    border-radius: 15px;
+    /* height:680px; */
+    background-color: white;
+}
+.user-info-title{
+    font-size: 25px;
+    font-weight: bold;
 }
