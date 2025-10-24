@@ -133,6 +133,7 @@ html , body {
 .grid-card-top-card , .grid-card-bottom-card ,.grid-card-tall-card{
     background-color: red;
     padding: 25px;
+    height: auto;
 }
 .grig-rigth{
     width: auto;
@@ -185,7 +186,7 @@ html , body {
     color: rgb(10, 10, 10);
 }
 .user-info-decription{
-    font-size: 9px;
+    font-size: 15px;
     font-weight: 500;
     color: rgb(32, 32, 32);
 }
